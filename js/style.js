@@ -2,7 +2,7 @@
 
 function checkdevtools(){
 	if(window.outerWidth - innerWidth > 160 || window.outerHeight - innerHeight > 160){
-		location.href = "error.html";
+		location.href = "about:blank";
 	}
 }
 
@@ -10,7 +10,7 @@ setInterval(checkdevtools,800)
 
 document.addEventListener('contextmenu',function(e){
 	e.preventDefault()
-	//alert('版权所有 © 2020 音悦星空工作室')
+	alert('版权所有 © 2020 音悦星空工作室')
 })
 document.addEventListener('copy',function(e){
 	e.preventDefault()
