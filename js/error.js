@@ -2,7 +2,7 @@
 
 function checkdevtools(){
 	if(window.outerWidth - innerWidth > 160 || window.outerHeight - innerHeight > 160){
-		//location.href = "about:blank";
+		location.href = "about:blank";
 	}
 }
 
