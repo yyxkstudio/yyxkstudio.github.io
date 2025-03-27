@@ -1,0 +1,52 @@
+/* CSS Document */
+
+body{
+	font-family: Arial, sans-serif;
+	background-color: #f4f4f4;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+}
+
+h1{
+	color: #333;
+}
+
+p{
+	color: #666;
+}
+/* 404 元素样式 */
+#error {
+    display: inline-block;
+    text-shadow: 5px 2px 5px rgba(0, 0, 0, 0.5);
+	transform: rotate(-8deg);
+	font-size: 100px;
+	color: #C4C3C3;
+}
+
+#Error{
+	opacity: 0.88;
+	margin-top: -100px;
+    display: inline-block;
+    text-shadow: 3px 2px 1px rgba(0, 0, 0, 0.5);
+	transform: rotate(8deg);
+	font-size: 88px;
+	color: #E3E3E3;
+}
+
+/* 按钮样式 */
+a{
+	background-color: #007bff;
+	color: white;
+	border: none;
+	padding: 10px 20px;
+	border-radius: 5px;
+	cursor: pointer;
+	margin-top: 20px;
+	transition: background-color 0.3s ease;
+	text-decoration: none;
+}
