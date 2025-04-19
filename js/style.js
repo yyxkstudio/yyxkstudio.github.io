@@ -1,3 +1,31 @@
 // JavaScript Document
 
-function checkdevtools(){if(window['\u006F\u0075\u0074\u0065\u0072\u0057\u0069\u0064\u0074\u0068']-innerWidth>(599977^599817)||window['\u006F\u0075\u0074\u0065\u0072\u0048\u0065\u0069\u0067\u0068\u0074']-innerHeight>(587679^587583)){location['\u0068\u0072\u0065\u0066']="\u0061\u0062\u006F\u0075\u0074\u003A\u0062\u006C\u0061\u006E\u006B";}}setInterval(checkdevtools,127180^127980);document['\u0061\u0064\u0064\u0045\u0076\u0065\u006E\u0074\u004C\u0069\u0073\u0074\u0065\u006E\u0065\u0072']("\u0063\u006F\u006E\u0074\u0065\u0078\u0074\u006D\u0065\u006E\u0075",function(e){e['\u0070\u0072\u0065\u0076\u0065\u006E\u0074\u0044\u0065\u0066\u0061\u0075\u006C\u0074']();alert("\u7248\u6743\u6240\u6709\u0020\u00A9\u0020\u0032\u0030\u0032\u0030\u0020\u97F3\u60A6\u661F\u7A7A\u5DE5\u4F5C\u5BA4");});document['\u0061\u0064\u0064\u0045\u0076\u0065\u006E\u0074\u004C\u0069\u0073\u0074\u0065\u006E\u0065\u0072']("\u0063\u006F\u0070\u0079",function(e){e['\u0070\u0072\u0065\u0076\u0065\u006E\u0074\u0044\u0065\u0066\u0061\u0075\u006C\u0074']();});document['\u0061\u0064\u0064\u0045\u0076\u0065\u006E\u0074\u004C\u0069\u0073\u0074\u0065\u006E\u0065\u0072']("tuc".split("").reverse().join(""),function(e){e['\u0070\u0072\u0065\u0076\u0065\u006E\u0074\u0044\u0065\u0066\u0061\u0075\u006C\u0074']();});document['\u0061\u0064\u0064\u0045\u0076\u0065\u006E\u0074\u004C\u0069\u0073\u0074\u0065\u006E\u0065\u0072']("\u0073\u0065\u006C\u0065\u0063\u0074\u0073\u0074\u0061\u0072\u0074",function(e){e['\u0070\u0072\u0065\u0076\u0065\u006E\u0074\u0044\u0065\u0066\u0061\u0075\u006C\u0074']();});
+function checkdevtools(){
+	if(window.outerWidth - innerWidth > 160 || window.outerHeight - innerHeight > 160){
+		//location.href = "about:blank";
+	}
+}
+
+setInterval(checkdevtools,800)
+
+document.addEventListener('contextmenu',function(e){
+	e.preventDefault()
+	//alert('版权所有 © 2020 音悦星空工作室')
+})
+document.addEventListener('copy',function(e){
+	e.preventDefault()
+})
+document.addEventListener('cut',function(e){
+	e.preventDefault()
+})
+document.addEventListener('selectstart',function(e){
+	e.preventDefault()
+})
+document.addEventListener('dragstart',function(e){
+	e.preventDefault();
+})
+document.addEventListener('keydown',function(e){
+	if((e.ctrlKey || e.metaKey) && e.key === 's'){
+		e.preventDefault();
+	}
+})
