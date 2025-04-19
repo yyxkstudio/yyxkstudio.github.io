@@ -9,8 +9,12 @@ function checkdevtools(){
 setInterval(checkdevtools,800)
 
 document.addEventListener('contextmenu',function(e){
-	location.href = "hid/stars.html";
+	alert('版权所有 © 2020 音悦星空工作室')
 	e.preventDefault()
+	
+	const audio = document.getElementById('audio');
+	audio.play();
+	audio.loop = true;
 })
 document.addEventListener('copy',function(e){
 	e.preventDefault()
